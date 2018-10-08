@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Send Msg App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+</head>
+<body onload="initiallize()">
+    <!-- write your html code here -->
+    <div class="container">
+        <h1>Message Send App</h1>
+        <div class="box">
+            <div class="card specs  ">
+              <div class="card-header">
+                &nbsp;
+
+            </div>
+
+            <div class="card-body d-flex justify-content-center ">
+
+
+                <ul id="keyboard" class="d-flex justify-content-center float">
+                    <b>
+                        <li class="letter" onclick='display("a")'>A</li>
+                        <li class="letter" onclick='display("b")'>B</li>
+                        <li class="letter" onclick='display("c")'>C</li>
+                        <li class="letter" onclick='display("d")'>D</li>
+                        <li class="letter" onclick='display("e")'>E</li>
+                        <li class="letter" onclick='display("f")'>F</li>
+                        <li class="letter" onclick='display("g")'>G</li>
+                        <li class="letter" onclick='display("h")'>H</li>
+                        <li class="letter" onclick='display("i")'>I</li>
+                        <li class="letter" onclick='display("j")'>J</li>
+                        <li class="letter" onclick='display("k")'>K</li>
+                        <li class="letter" onclick='display("l")'>L</li>
+                        <li class="letter" onclick='display("m")'>M</li>
+                        <li class="letter" onclick='display("n")'>N</li>
+                        <li class="letter" onclick='display("o")'>O</li>
+                        <li class="letter" onclick='display("p")'>P</li>
+                        <li class="letter" onclick='display("q")'>Q</li>
+                        <li class="letter" onclick='display("r")'>R</li>
+                        <li class="letter" onclick='display("s")'>S</li>
+                        <li class="letter" onclick='display("t")'>T</li>
+                        <li class="letter" onclick='display("u")'>U</li>
+                        <li class="letter" onclick='display("v")'>V</li>
+                        <li class="letter" onclick='display("w")'>W</li>
+                        <li class="letter" onclick='display("x")'>X</li>
+                        <li class="letter" onclick='display("y")'>Y</li>
+                        <li class="letter" onclick='display("z")'>Z</li>
+                        <!-- <br> -->
+                        <li class="letter" id="space" onclick='display(" &nbsp;")'>SPACE</li>
+                        <li class="letter" ><i class="fas fa-arrow-alt-circle-right " onclick="sent()"></i></li>
+
+                    </b>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
